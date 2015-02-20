@@ -25,18 +25,16 @@ angular.module('songhop.services')
 	var getSongs = function () {
 		return songs;
 	};
-	var getCurrentSong = function () {
-		return currentSong;
-	};
 
-	var setCurrentSong = function (song) {
-		setCurrentSong = song;
+	var setCurrentSong = function (songNumber) {
+		currentSong = songs[songNumber];
+		return currentSong;
 	};
 
 
 	return {
 		'getSongs': getSongs,
-		'getCurrentSong':getCurrentSong,
+		'currentSong':currentSong,
 		'setCurrentSong':setCurrentSong
 
 	};
