@@ -1,4 +1,4 @@
 angular.module('songhop.controllers')
-	.controller('FavoritesCtrl', [function() {
-		var vm = this;
+	.controller('FavoritesCtrl', ['$scope', function($scope) {
+	
 	}]);

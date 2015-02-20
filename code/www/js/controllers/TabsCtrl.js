@@ -1,4 +1,4 @@
 angular.module('songhop.controllers')
-	.controller('TabsCtrl', [function() {
-		var vm = this;
+	.controller('TabsCtrl', ['$scope', function($scope) {
+		
 	}]);

@@ -35,7 +35,7 @@ angular.module('songhop', ['ionic', 'songhop.controllers'])
     url: '/tab',
     abstract: true,
     templateUrl: 'templates/tabs.html',
-    controller: 'TabsCtrl'
+    controller: 'TabsCtrl',
   })
 
   // Each tab has its own nav history stack:
