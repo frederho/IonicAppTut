@@ -1,5 +1,9 @@
-var songhopApp = angular.module('songhop.controllers', []);
+var songhop = angular.module('songhop.controllers', ['ionic', 'songhop.services'])
 
-songhopApp.controller('DiscoverCtrl', 
-	['$scope', function($scope) {
-}]);
+
+/*
+Controller for the discover page
+*/
+songhop.controller('DiscoverCtrl', function($scope) {
+
+})
