@@ -1,5 +1,5 @@
 var songhopApp = angular.module('songhop.controllers', []);
 
-songhopApp.controller('DiscoverCtrl', 
+songhopApp.controller('TabsCtrl', 
 	['$scope', function($scope) {
 }]);
